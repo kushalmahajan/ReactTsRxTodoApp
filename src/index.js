@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import './observableConfig';
-import App from './app';
 
-const root = document.getElementById('app');
-ReactDOM.render(<App />, root)
+const rootElem = document.getElementById('app');
+ReactDOM.render(<App />, rootElem);
