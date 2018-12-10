@@ -1,0 +1,35 @@
+{
+  "name": "react_typescript_rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "rxjs",
+    "reactivex",
+    "observables",
+    "typescript",
+    "rx",
+    "rx.js"
+  ],
+  "author": "Kushal Mahajan",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "^2.1.1",
+    "recompose": "0.27.1",
+    "rxjs": "6.2.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
