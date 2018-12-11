@@ -1,3 +1,12 @@
 import React from 'react';
-const App = () => {}
+import Todos from './components/Todos/Todos';
+
+const App = () => {
+    return (
+        <div>
+            Todo app
+            <Todos />
+        </div>
+    )
+}
 export default App;
