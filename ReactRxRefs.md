@@ -14,3 +14,5 @@
 
     https://github.com/acdlite/recompose/
     https://medium.freecodecamp.org/how-to-build-a-github-search-in-react-with-rxjs-6-and-recompose-e9c6cc727e7f
+
+    https://ramdajs.com/
