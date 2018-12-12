@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import sampleReducer from './sample';
-import todosReducer from './todos';
+import todosReducer, { addTodosEpic } from './todos';
+import { combineEpics } from 'redux-observable';
 
-const rootReducer = combineReducers({sampleReducer, todosReducer});
-export default rootReducer;
+
+export const rootEpic = combineEpics(addTodosEpic);
+export const rootReducer = combineReducers({sampleReducer, todosReducer});

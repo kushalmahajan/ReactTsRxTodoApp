@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addTodo } from "../../redux/actions/todos";
+import { addTodoDelay } from "../../redux/actions/todos";
 
 const AddTodo = ({dispatch}) => {
     let input;
@@ -10,7 +10,7 @@ const AddTodo = ({dispatch}) => {
             if(!input.value.trim()){
                 return
             }
-            dispatch(addTodo(input.value));
+            dispatch(addTodoDelay(input.value));
             input.value = ""
         }} >
             <input ref={node => (input = node)} placeholder="Add Todo" />

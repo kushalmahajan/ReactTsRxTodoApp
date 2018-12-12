@@ -25,6 +25,7 @@
     "react-redux": "^6.0.0",
     "react-scripts": "^2.1.1",
     "redux": "^4.0.1",
+    "redux-observable": "^1.0.0",
     "rxjs": "6.2.2"
   },
   "browserslist": [
