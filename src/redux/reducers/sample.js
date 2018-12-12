@@ -1,10 +1,7 @@
 const PING = 'PING';
 const PONG = 'PONG';
 
-const initialState = {
-  list: []
-};
-const sampleReducer = (state = initialState, action) => {
+const sampleReducer = (state = {}, action) => {
   switch (action.type) {
     case PING:
       return { isPinging: true };
